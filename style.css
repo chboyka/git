@@ -1,0 +1,125 @@
+:root{
+    --border:0px solid black;
+}
+
+
+html,body{
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    max-height: 100vh;
+    overflow: hidden;
+    font-family: roboto;
+}
+
+main{
+    background-color:rgba(232, 234, 235, 0.534);
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    min-height: 80vh;
+    border: var(--border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    border: var(--border);
+    width: 30%;
+    height: 50vh;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+
+.left *{
+    margin: 0;
+    padding: 0;
+    border: var(--border);
+}
+
+.facebook{
+    width: 16rem;
+    transform: translate(-1.5rem,0.7rem);
+}
+
+p{
+
+    font-size: 1.6rem;
+}
+
+.right{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    color: gainsboro;
+}
+.container{
+    background-color: #fff;
+    box-shadow: 1px 1px 8px 2px rgba(128, 128, 128, 0.507);
+    border: var(--border);
+    width: 22rem;
+    height: 20rem;
+    border-radius: 0.8ch;
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    width: 18rem;
+    margin-top: 1rem;
+    padding: 0.8rem;
+    font-size: medium;
+}
+
+input[type="button"]{
+    width: 20rem;
+    padding: 0.5rem;
+    color: #fff;
+    background-color: #1877f2;
+    border: white;
+    border-radius: 0.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+form{
+    border: var(--border);
+    width: max-content;
+    margin: auto;
+}
+
+
+#forgot{
+    font-weight: normal;
+    text-align: center;
+    color: #1877f2;
+}
+
+button{
+    background-color:#45c22c;
+    padding: 0.6rem;
+    display: block;
+    border-radius: 0.3rem;
+    margin: auto;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+#create{
+    font-weight: normal;
+}
+
+span{
+    font-weight: 600;
+}
