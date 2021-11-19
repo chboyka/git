@@ -1,4 +1,4 @@
-:root{
+    :root{
     --border:0px solid black;
 }
 
@@ -12,8 +12,8 @@ html,body{
     font-family: roboto;
 }
 
-main{
-    background-color:rgba(232, 234, 235, 0.534);
+section{
+    background-color:#f0f2f5;
     margin: 0;
     padding: 0;
     width: 100vw;
@@ -66,7 +66,7 @@ hr{
 }
 .container{
     background-color: #fff;
-    box-shadow: 1px 1px 8px 2px rgba(128, 128, 128, 0.507);
+    box-shadow: 1px 1px 8px 3px #dddfe2;
     border: var(--border);
     width: 22rem;
     height: 20rem;
@@ -80,6 +80,8 @@ input{
     margin-top: 1rem;
     padding: 0.8rem;
     font-size: medium;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
 }
 
 input[type="button"]{
@@ -88,8 +90,9 @@ input[type="button"]{
     color: #fff;
     background-color: #1877f2;
     border: white;
-    border-radius: 0.2rem;
+    border-radius: 6px;
     font-family: 'Poppins', sans-serif;
+    cursor: pointer;
 }
 
 form{
@@ -103,17 +106,20 @@ form{
     font-weight: normal;
     text-align: center;
     color: #1877f2;
+    cursor: pointer;
 }
 
 button{
     background-color:#45c22c;
     padding: 0.6rem;
     display: block;
-    border-radius: 0.3rem;
+    border-radius: 6px;
     margin: auto;
     color: #fff;
     font-weight: 500;
     font-family: 'Poppins', sans-serif;
+    border: 0px;
+    cursor: pointer;
 }
 
 #create{
@@ -122,4 +128,30 @@ button{
 
 span{
     font-weight: 600;
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    height: 20vh;
+    border: 0px solid black;
+    justify-content: center;
+}
+.links{
+    margin: auto;
+    padding: 0;
+    width: max-content;
+    height: max-content;
+    border: 0px solid black;
+    max-width: 60%;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    font-size: 11px;
+    display: inline-block;
+    color: #737373;
+    padding-right: 1ch;
 }
