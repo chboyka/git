@@ -1,5 +1,5 @@
     :root{
-    --border:0px solid black;
+    --border:1px solid black;
 }
 
 
@@ -13,6 +13,7 @@ html,body{
 }
 
 section{
+    flex-wrap: wrap;
     background-color:#f0f2f5;
     margin: 0;
     padding: 0;
@@ -28,6 +29,7 @@ div{
     border: var(--border);
     width: 30%;
     height: 50vh;
+    min-width: 500px;
 }
 
 .left{
