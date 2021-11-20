@@ -4,18 +4,18 @@
 
 
 html,body{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     max-width: 100vw;
     max-height: 100vh;
-    overflow: hidden;
     font-family: roboto;
 }
 
 section{
     flex-wrap: wrap;
     background-color:#f0f2f5;
-    margin: 0;
+    margin: auto;
     padding: 0;
     width: 100vw;
     min-height: 80vh;
@@ -25,14 +25,14 @@ section{
     align-items: center;
 }
 
-div{
-    border: var(--border);
-    width: 30%;
-    height: 50vh;
-    min-width: 500px;
-}
+/* div{
+} */
 
 .left{
+    height: 50vh;
+    width: 30%;
+    min-width: 22rem;
+    border: var(--border);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
