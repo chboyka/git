@@ -1,5 +1,5 @@
     :root{
-    --border:1px solid black;
+    --border:0px solid black;
 }
 
 
@@ -61,8 +61,8 @@ p{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #45c22c;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 hr{
